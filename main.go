@@ -281,7 +281,7 @@ func CreateLineChart(f *excelize.File, sheetName string, series []excelize.Chart
 		},
 		Legend: excelize.ChartLegend{
 			Position: "top",
-			Font:     &font,
+			// Font:     &font,
 		},
 		XAxis: excelize.ChartAxis{
 			Title: []excelize.RichTextRun{
